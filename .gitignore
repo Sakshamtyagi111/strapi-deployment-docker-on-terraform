@@ -1,0 +1,58 @@
+# ------------------------------
+# Terraform State Files
+# ------------------------------
+*.tfstate
+*.tfstate.*
+crash.log
+
+# ------------------------------
+# Terraform Lock & Cache
+# ------------------------------
+.terraform/
+.terraform.lock.hcl
+
+# ------------------------------
+# Terraform Variable Files
+# ------------------------------
+*.tfvars
+*.tfvars.json
+
+# Exception: keep example vars if needed
+!terraform.tfvars.example
+
+# ------------------------------
+# Sensitive Data
+# ------------------------------
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+
+# ------------------------------
+# OS / Editor Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Node / App Artifacts (if any)
+# ------------------------------
+node_modules/
+dist/
+build/
+.env
+.env.*
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.backup
+errors.txt
